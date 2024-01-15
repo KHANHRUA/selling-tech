@@ -1,0 +1,140 @@
+
+
+.header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 100px;
+    box-shadow: 0px 0px 10px black;
+    position: relative;
+}
+
+.header>img{
+    width: 80px;
+    height: 80px;
+}
+
+.header >h2{
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: rgb(255, 247, 255);
+}
+
+.first{
+    width: 40vw;
+    height: 40vw;
+    /* background-color: aqua; */
+    /* padding: 10vw; */
+    margin: 2.45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(179, 179, 179);
+    background-color: white;
+}
+
+.first >img{
+    width: 20vw;
+}
+
+.first>.Text{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Text>h2{
+    font-weight: 300;
+    margin: 3px;
+    font-size: 16px;
+}
+
+.bold{
+    font-weight: bold !important;
+}
+
+.second{
+    width: 20vw;
+    height: auto;
+    margin: 2.5vw;
+}
+
+.information{
+    width: 20vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(179, 179, 179);
+}
+
+.information>h1{
+    font-weight: 700;
+}
+
+.information>h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(104, 103, 103);
+    margin: 5px 0px;
+}
+
+.information>div{
+    width: 18vw;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(193, 193, 193);
+}
+
+.back{
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.back>.link{
+    text-decoration: none;
+    color: rgb(220, 32, 132);
+}
+
+@media (max-width: 600px) {
+    .header{
+        justify-content: space-between;
+        width: 100vw;
+        padding: 10px;
+    }
+
+    .header>h2{
+        font-size: 20px;
+    }
+
+    .body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first{
+        width: 90vw;
+        height: 120vw;
+    }
+
+    .first>img{
+        width: 80vw;
+    }
+}

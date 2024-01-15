@@ -1,0 +1,121 @@
+#content {
+    min-height: 400px;
+    margin-bottom: 25px;
+}
+.blog-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+#newImg {
+    height: 190px;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 10px;
+    width:370px;
+}
+.rows {
+    margin-left: 2px;
+    margin-right: -9px;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+h3 {
+    font-size: 16px;
+    line-height: 32px;
+}
+.blog-item .description p, .blog-item .description span {
+    font-size: 14px !important;
+}
+p {
+    margin: 0 0 9px;
+}
+.row:after {
+    clear: both;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.leading-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.flex{
+    display: grid;
+    /* width: 100vw; */
+    grid-template-columns: 300px auto;
+    column-gap: 40px;
+}
+.news-more a{
+    color:#58b0da;
+}
+.col-lg-6{
+    width:70%;
+}
+.lazyautosizes{
+    height:70%;
+}
+.col-lg-6 {
+    width: 70% !important;
+}
+h3.blog-title {
+    line-height: 17px;
+    height: 35px;
+}
+.button{
+    background:black;
+    border-radius: 4px;
+    color:white ;
+}
+.blog-title>a{
+    text-decoration:none;
+    color:black;
+}
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 6px 12px 6px 12px;
+}
+.tp_button{
+    background:#4a4a4a;
+    border-radius:3px;
+    line-height:16px
+}
+.tp_button:hover{
+    background:#58b0da;
+     animation: changeColor 0.5s ease;
+}
+.level2>li:hover{
+    color:#58b0da !important;
+     animation: changeColor 0.5s ease;
+}
+@keyframes changeColor {
+    0% {
+      color: black;
+    }
+    100% {
+      color: #31beff;
+    }
+  }
+.color{
+    color:red;
+}
+@media (min-width:780px) and (max-width:1023px) {
+   .flex{
+    flex-direction: column-reverse;
+    display: flex;
+   }
+   .CoreIndex{
+    margin:40px 0px;
+   }
+}
+@media (max-width:740px) {
+    .flex{
+        flex-direction: column-reverse;
+        display: flex;
+    }
+}

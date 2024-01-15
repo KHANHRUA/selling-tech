@@ -1,0 +1,81 @@
+{
+  "data": [
+    {
+      "code": "123213",
+      "product": [
+        {
+          "name": "Máy Bay Ripper R690"
+        },
+        {
+          "name": "Máy Bay Ripper R690 NH"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        }
+      ],
+      "price": "500,000",
+      "date": "28/08/2023",
+      "status": "đã nhận"
+    },
+    {
+      "code": "12135",
+      "product": [
+        {
+          "name": "Máy Bay Ripper R690"
+        },
+        {
+          "name": "Máy Bay Ripper R690 NH"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        }
+      ],
+      "price": "500,000",
+      "date": "31/08/2023",
+      "status": "đã nhận"
+    },
+    {
+      "code": "323231",
+      "product": [
+        {
+          "name": "Máy Bay Ripper R690"
+        },
+        {
+          "name": "Máy Bay Ripper R690 NH"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        }
+      ],
+      "price": "300,000",
+      "date": "30/08/2023",
+      "status": "đang giao"
+    },
+    {
+      "code": "23123",
+      "product": [
+        {
+          "name": "Máy Bay Ripper R690"
+        },
+        {
+          "name": "Máy Bay Ripper R690 NH"
+        },
+        {
+          "name": "Nam Châm Chữ Nhật 10*5*2Mm(10 Chiếc)"
+        }
+      ],
+      "price": "900,000",
+      "date": "29/08/2023",
+      "status": "vẫn đang ở kho"
+    }
+  ]
+}
